@@ -72,6 +72,7 @@ RUN add-pkg \
         qt6-qtsvg \
         # Needed for dark mode.
         adwaita-qt6 \
+        ffmpeg \
         && \
     add-pkg cmark-dev --repository http://dl-cdn.alpinelinux.org/alpine/edge/community && \
     # Remove unused plugins that cause the following log message:
